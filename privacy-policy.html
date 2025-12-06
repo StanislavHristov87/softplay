@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Политика за поверителност - Soft Play Solutions</title>
+    <meta name="description" content="Политика за поверителност на Soft Play Solutions - информация за обработката на лични данни. GDPR съобразна политика за защита на личните данни.">
+    <meta name="keywords" content="политика поверителност, GDPR, защита лични данни, privacy policy, детски площадки България">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.spsbul.com/privacy-policy.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.spsbul.com/privacy-policy.html">
+    <meta property="og:title" content="Политика за поверителност - Soft Play Solutions">
+    <meta property="og:description" content="Политика за поверителност на Soft Play Solutions - GDPR съобразна политика за защита на личните данни.">
+    <meta property="og:locale" content="bg_BG">
+    <meta property="og:locale:alternate" content="en_GB">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://www.spsbul.com/privacy-policy.html">
+    <meta name="twitter:title" content="Политика за поверителност - Soft Play Solutions">
+    <meta name="twitter:description" content="Политика за поверителност на Soft Play Solutions - GDPR съобразна политика.">
+    
+    <!-- Alternate Languages -->
+    <link rel="alternate" hreflang="bg" href="https://www.spsbul.com/privacy-policy.html">
+    <link rel="alternate" hreflang="en" href="https://www.spsbul.com/privacy-policy.html?lang=en">
+    <link rel="alternate" hreflang="x-default" href="https://www.spsbul.com/privacy-policy.html">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Translations -->
+    <script src="translations.js"></script>
+    
+    <style>
+        .font-heading {
+            font-family: 'Jost', sans-serif;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <!-- Header/Navigation -->
+    <header class="bg-white fixed w-full top-0 z-50 shadow-sm transition-shadow duration-300">
+        <nav class="container mx-auto px-4 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="index.html" class="text-lg md:text-2xl font-heading text-black">
+                    SOFT PLAY SOLUTIONS
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden lg:flex items-center space-x-10">
+                    <a href="index.html#home" class="text-black hover:text-gray-600 transition relative" data-translate="nav.home">НАЧАЛО</a>
+                    <a href="services.html" class="text-black hover:text-gray-600 transition relative" data-translate="nav.services">УСЛУГИ</a>
+                    <a href="gallery.html" class="text-black hover:text-gray-600 transition relative" data-translate="nav.gallery">ГАЛЕРИЯ</a>
+                    <a href="tips.html" class="text-black hover:text-gray-600 transition relative" data-translate="nav.tips">СЪВЕТИ</a>
+                    <a href="products.html" class="text-black hover:text-gray-600 transition relative" data-translate="nav.products">ПРОДУКТИ</a>
+                    <a href="about.html" class="text-black hover:text-gray-600 transition relative" data-translate="nav.about">ЗА НАС</a>
+                    <!-- Dark Mode Toggle -->
+                    <button id="dark-mode-toggle" class="dark-mode-toggle" title="Toggle Dark Mode" aria-label="Toggle Dark Mode">
+                        <svg class="sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                        </svg>
+                        <svg class="moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                        </svg>
+                    </button>
+                    <!-- Language Switcher -->
+                    <div class="flex items-center space-x-2 border-l border-gray-300 pl-4">
+                        <button onclick="setLanguage('bg')" class="lang-switcher flex items-center justify-center w-8 h-8 rounded hover:bg-gray-100 transition" data-lang="bg" title="Български">
+                            <img src="icons/Bulgaria.png" alt="Български език" class="w-6 h-6 object-contain">
+                        </button>
+                        <button onclick="setLanguage('en')" class="lang-switcher flex items-center justify-center w-8 h-8 rounded hover:bg-gray-100 transition" data-lang="en" title="English">
+                            <img src="icons/United Kingdom.png" alt="Английски език" class="w-6 h-6 object-contain">
+                        </button>
+                    </div>
+                    <a href="contact.html" class="btn-primary" data-translate="nav.contact">
+                        СВЪРЖЕТЕ СЕ С НАС
+                    </a>
+                </div>
+                
+                <!-- Mobile Controls (Theme + Language) -->
+                <div class="flex items-center space-x-3 lg:hidden">
+                    <!-- Dark Mode Toggle Mobile -->
+                    <button id="dark-mode-toggle-mobile" class="dark-mode-toggle" title="Toggle Dark Mode" aria-label="Toggle Dark Mode">
+                        <svg class="sun-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                        </svg>
+                        <svg class="moon-icon w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                        </svg>
+                    </button>
+                    <!-- Language Switcher Mobile (Dropdown) -->
+                    <div class="relative">
+                        <button id="mobile-lang-toggle" class="flex items-center justify-center w-7 h-7 rounded hover:bg-gray-100 transition" title="Select Language" aria-label="Select Language">
+                            <img id="mobile-current-lang-flag" src="icons/Bulgaria.png" alt="Current language" class="w-5 h-5 object-contain">
+                        </button>
+                        <!-- Dropdown Menu -->
+                        <div id="mobile-lang-dropdown" class="hidden absolute right-0 mt-2 bg-white rounded-lg shadow-lg border border-gray-200 py-1 z-50 min-w-[120px]">
+                            <button onclick="setLanguage('bg'); closeMobileLangDropdown();" class="mobile-lang-option w-full flex items-center space-x-2 px-4 py-2 hover:bg-gray-100 transition text-left" data-lang="bg">
+                                <img src="icons/Bulgaria.png" alt="Български" class="w-5 h-5 object-contain">
+                                <span class="text-sm text-gray-700">Български</span>
+                            </button>
+                            <button onclick="setLanguage('en'); closeMobileLangDropdown();" class="mobile-lang-option w-full flex items-center space-x-2 px-4 py-2 hover:bg-gray-100 transition text-left" data-lang="en">
+                                <img src="icons/United Kingdom.png" alt="English" class="w-5 h-5 object-contain">
+                                <span class="text-sm text-gray-700">English</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="lg:hidden text-black">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- Mobile Navigation -->
+            <div id="mobile-menu" class="hidden lg:hidden pb-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="index.html#home" class="text-black hover:text-gray-600 transition" data-translate="nav.home">НАЧАЛО</a>
+                    <a href="services.html" class="text-black hover:text-gray-600 transition" data-translate="nav.services">УСЛУГИ</a>
+                    <a href="gallery.html" class="text-black hover:text-gray-600 transition" data-translate="nav.gallery">ГАЛЕРИЯ</a>
+                    <a href="tips.html" class="text-black hover:text-gray-600 transition" data-translate="nav.tips">СЪВЕТИ</a>
+                    <a href="products.html" class="text-black hover:text-gray-600 transition" data-translate="nav.products">ПРОДУКТИ</a>
+                    <a href="about.html" class="text-black hover:text-gray-600 transition" data-translate="nav.about">ЗА НАС</a>
+                    <!-- Dark Mode Toggle Mobile -->
+                    <div class="flex items-center space-x-2 pt-2 border-t border-gray-300">
+                        <span class="text-sm text-gray-600">Theme:</span>
+                        <button id="dark-mode-toggle-mobile-menu" class="dark-mode-toggle" title="Toggle Dark Mode" aria-label="Toggle Dark Mode">
+                            <svg class="sun-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+                            </svg>
+                            <svg class="moon-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <!-- Language Switcher Mobile -->
+                    <div class="flex items-center space-x-2 pt-2 border-t border-gray-300">
+                        <span class="text-sm text-gray-600">Language:</span>
+                        <button onclick="setLanguage('bg')" class="lang-switcher flex items-center justify-center w-8 h-8 rounded hover:bg-gray-100 transition" data-lang="bg">
+                            <img src="icons/Bulgaria.png" alt="Bulgarian" class="w-6 h-6 object-contain">
+                        </button>
+                        <button onclick="setLanguage('en')" class="lang-switcher flex items-center justify-center w-8 h-8 rounded hover:bg-gray-100 transition" data-lang="en">
+                            <img src="icons/United Kingdom.png" alt="English" class="w-6 h-6 object-contain">
+                        </button>
+                    </div>
+                    <a href="contact.html" class="btn-primary w-full text-center" data-translate="nav.contact">
+                        СВЪРЖЕТЕ СЕ С НАС
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Privacy Policy Content -->
+    <section class="pt-32 pb-16 bg-white">
+        <div class="container mx-auto px-4 lg:px-8 max-w-4xl">
+            <h1 class="font-heading text-4xl md:text-5xl mb-4 text-black" data-translate="privacy.title">Политика за поверителност</h1>
+            
+            <p class="text-gray-600 mb-12" data-translate="privacy.lastUpdated">Последна актуализация: 04.12.2025 г.</p>
+            
+            <div class="prose prose-lg max-w-none text-gray-700 space-y-6">
+                <p data-translate="privacy.intro1">
+                    Ние от „СОФТ ПЛЕЙ СОЛЮШЪНС - ВВС" ЕООД (наричано по-долу „ние", „нас" или „Дружеството"), с ЕИК 207364211, седалище и адрес на управление: гр. Разград 7200, р. Орел, бл. 24, вх. 8, ет. 8, ап. 4, уважаваме поверителността на Вашите лични данни и се ангажираме да ги защитаваме.
+                </p>
+                
+                <p data-translate="privacy.intro2">
+                    Настоящата Политика за поверителност обяснява как обработваме личните Ви данни, когато посещавате нашия уебсайт или се свържете с нас.
+                </p>
+                
+                <h2 class="font-heading text-2xl md:text-3xl mt-8 mb-4 text-black" data-translate="privacy.section1Title">1. Какви лични данни събираме?</h2>
+                
+                <p data-translate="privacy.section1Text1">
+                    Ние не събираме, съхраняваме или обработваме лични данни по автоматичен начин (бисквитки, аналитични инструменти, проследяване и др.).
+                </p>
+                
+                <p data-translate="privacy.section1Text2">
+                    Единствено получаваме лични данни, когато Вие доброволно ни ги изпратите чрез контактната форма или по имейл. Това обикновено включва:
+                </p>
+                
+                <ul class="list-disc pl-6 space-y-2">
+                    <li data-translate="privacy.section1Item1">Име</li>
+                    <li data-translate="privacy.section1Item2">Е-mail адрес</li>
+                    <li data-translate="privacy.section1Item3">Телефон (по желание)</li>
+                    <li data-translate="privacy.section1Item4">Съдържанието на съобщението</li>
+                </ul>
+                
+                <h2 class="font-heading text-2xl md:text-3xl mt-8 mb-4 text-black" data-translate="privacy.section2Title">2. За какво използваме тези данни?</h2>
+                
+                <p data-translate="privacy.section2Text">
+                    Данните се използват само и единствено за да Ви отговорим на запитването. Не ги използваме за маркетинг, реклама, профилиране или други цели.
+                </p>
+                
+                <h2 class="font-heading text-2xl md:text-3xl mt-8 mb-4 text-black" data-translate="privacy.section3Title">3. Предаваме ли данните Ви на трети лица?</h2>
+                
+                <p data-translate="privacy.section3Text">
+                    Не. Вашите данни не се предоставят, не се продават и не се споделят с никого.
+                </p>
+                
+                <h2 class="font-heading text-2xl md:text-3xl mt-8 mb-4 text-black" data-translate="privacy.section4Title">4. Колко време съхраняваме данните Ви?</h2>
+                
+                <p data-translate="privacy.section4Text">
+                    Кореспонденцията се пази само докато е необходимо да отговорим и приключим комуникацията с Вас. След това съобщенията се изтриват в рамките на 30 дни, освен ако законът не изисква по-дълго съхранение.
+                </p>
+                
+                <h2 class="font-heading text-2xl md:text-3xl mt-8 mb-4 text-black" data-translate="privacy.section5Title">5. Вашите права</h2>
+                
+                <p data-translate="privacy.section5Text">
+                    Съгласно GDPR и Закона за защита на личните данни имате право по всяко време да:
+                </p>
+                
+                <ul class="list-disc pl-6 space-y-2">
+                    <li data-translate="privacy.section5Item1">поискате достъп, коригиране или изтриване на данните си</li>
+                    <li data-translate="privacy.section5Item2">възразите срещу обработването</li>
+                    <li data-translate="privacy.section5Item3">поискате ограничаване на обработването</li>
+                    <li data-translate="privacy.section5Item4">получите данните си в преносим формат</li>
+                    <li data-translate="privacy.section5Item5">подадете жалба до Комисията за защита на личните данни (www.cpdp.bg)</li>
+                </ul>
+                
+                <h2 class="font-heading text-2xl md:text-3xl mt-8 mb-4 text-black" data-translate="privacy.section6Title">6. Данни за контакт с администратора на лични данни</h2>
+                
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <p class="font-semibold mb-2" data-translate="privacy.section6Company">„СОФТ ПЛЕЙ СОЛЮШЪНС - ВВС" ЕООД</p>
+                    <p data-translate="privacy.section6EIK">ЕИК: 207364211</p>
+                    <p data-translate="privacy.section6Address">Адрес: гр. Разград 7200, р. Орел, бл. 24, вх. 8, ет. 8, ап. 4</p>
+                    <p><span data-translate="privacy.section6Email">Имейл:</span> <a href="mailto:softplay1987@gmail.com" class="text-purple-600 hover:text-purple-700">softplay1987@gmail.com</a></p>
+                    <p><span data-translate="privacy.section6Phone">Телефон:</span> <a href="tel:+359889878731" class="text-purple-600 hover:text-purple-700">+359 889 878 731</a></p>
+                </div>
+                
+                <h2 class="font-heading text-2xl md:text-3xl mt-8 mb-4 text-black" data-translate="privacy.section7Title">7. Промени в политиката</h2>
+                
+                <p data-translate="privacy.section7Text">
+                    Запазваме си правото да актуализираме тази политика. Всяка нова версия ще бъде публикувана тук с нова дата.
+                </p>
+                
+                <p class="mt-8 text-lg" data-translate="privacy.thankYou">
+                    Благодарим Ви за доверието!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white text-black py-8 border-t border-gray-200">
+        <div class="container mx-auto px-4 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                <!-- Left side: Copyright and Privacy Policy -->
+                <div class="flex flex-col md:flex-row items-center gap-3 text-sm text-gray-700">
+                    <span>© 2025 Soft Play Solutions. All rights reserved.</span>
+                    <span class="hidden md:inline">|</span>
+                    <a href="privacy-policy.html" class="text-black hover:text-gray-600 transition underline" data-translate="footer.privacyPolicy">Политика за поверителност</a>
+                </div>
+                
+                <!-- Right side: Designed and Built by -->
+                <div class="flex items-center gap-2 text-sm">
+                    <span class="text-gray-500">Designed and Built by</span>
+                    <a href="https://www.uxuimate.com" target="_blank" class="text-purple-600 hover:text-purple-700 transition font-medium">UX UI MATE</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
