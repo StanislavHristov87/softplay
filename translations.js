@@ -38,8 +38,8 @@ const translations = {
             service4Desc: "Помагаме да изберете най-подходящите решения за вашия обект — безопасни, функционални и красиви.",
             viewServices: "ВИЖ УСЛУГИ",
             experienceTitle: "Доказан опит и доволни клиенти",
-            experienceText1: "Основателят на Soft Play Solutions носи над десет години опит в индустрията, което прави нашата компания надежден партньор в създаването на иновативни и безопасни детски пространства. Нашият екип от експерти работи с прецизност и страст, за да превърне всяка концепция в реалност.",
-            experienceText2: "Реализирали сме проекти в над 21 държави по света, като всеки един от тях е свидетелство за нашия ангажимент към качество, безопасност и клиентско удовлетворение. Нашите доволни клиенти са най-доброто доказателство за професионализма и надеждността, които предлагаме.",
+            experienceText1: "Основателят на Soft Play Solutions носи над шест години опит в индустрията, което прави нашата компания надежден партньор в създаването на иновативни и безопасни детски пространства. Нашият екип от експерти работи с прецизност и страст, за да превърне всяка концепция в реалност.",
+            experienceText2: "Реализирали сме проекти в над 11 държави по света, като всеки един от тях е свидетелство за нашия ангажимент към качество, безопасност и клиентско удовлетворение. Нашите доволни клиенти са най-доброто доказателство за професионализма и надеждността, които предлагаме.",
             experienceText3: "От малки семейни ресторанти до големи търговски центрове, ние създаваме решения, които не само забавляват децата, но и насърчават тяхното развитие и креативност, докато осигуряват спокойствие на родителите.",
             inspirationTitle: "Вдъхновение и безопасност в едно",
             inspirationText1: "В Soft Play Solutions вярваме, че всяко детско пространство трябва да бъде нещо повече от просто място за игра. Нашите проекти са внимателно обмислени да вдъхновяват въображението, насърчават физическата активност и развиват социалните умения на децата.",
@@ -533,14 +533,14 @@ const translations = {
         gallery: {
             heroTitle: "Project Gallery",
             heroSubtitle: "Browse some of our completed projects around the world",
-            introText1: "With the founder's experience, which exceeds 10 years in the industry, we create modern and functional children's facilities for shopping centers, hotels, schools and public spaces throughout Europe, Asia and Africa. Our professionalism and attention to detail allow us to realize projects that inspire and entertain children while providing peace of mind for parents.",
+            introText1: "With the founder's experience, which exceeds 6 years in the industry, we create modern and functional children's facilities for shopping centers, hotels, schools and public spaces throughout Europe, Asia and Africa. Our professionalism and attention to detail allow us to realize projects that inspire and entertain children while providing peace of mind for parents.",
             introText2: "Each project is unique and receives an individual approach – from 3D design and visualization to construction, maintenance and repair. We work with certified materials and follow strict international safety standards to ensure that every child can have fun without risks."
         },
         // About Page
         about: {
             heroTitle: "About Us",
             section1Title: "Inspiration and Safety in One",
-            section1Text1: "With the founder's experience, which exceeds 10 years in the industry, we create modern and functional children's facilities for shopping centers, hotels, schools, kindergartens and public spaces throughout Europe, Asia and Africa. Our professionalism and attention to detail allow us to realize projects that inspire and entertain children while providing peace of mind for parents.",
+            section1Text1: "With the founder's experience, which exceeds 6 years in the industry, we create modern and functional children's facilities for shopping centers, hotels, schools, kindergartens and public spaces throughout Europe, Asia and Africa. Our professionalism and attention to detail allow us to realize projects that inspire and entertain children while providing peace of mind for parents.",
             section1Text2: "Each project is unique and receives an individual approach – from 3D design and visualization to construction, maintenance and repair. We work with certified materials and follow strict international safety standards to ensure that every child can have fun without risks.",
             section1Text3: "Our mission is to create spaces that encourage play, movement and imagination, using sustainable and certified materials that meet European quality and safety standards. We believe that every child deserves a safe and inspiring place to play.",
             section2Title: "Our Values",
@@ -801,7 +801,7 @@ const seoMeta = {
         },
         about: {
             title: "За Нас - Soft Play Solutions | Нашата История и Ценности",
-            description: "Над 10 години опит в създаването на иновативни и безопасни детски пространства. Нашите ценности: качество, професионализъм, индивидуален подход и грижа за всяко дете.",
+            description: "Над 6 години опит в създаването на иновативни и безопасни детски пространства. Нашите ценности: качество, професионализъм, индивидуален подход и грижа за всяко дете.",
             keywords: "за нас, история, ценности, опит, детски площадки компания, България, професионализъм"
         },
         tips: {
@@ -823,7 +823,7 @@ const seoMeta = {
     en: {
         home: {
             title: "Soft Play Solutions - Safe and Smart Solutions for Children's Play Areas",
-            description: "Soft Play Solutions - over 10 years of experience creating innovative and safe children's playgrounds, children's zones and trampoline parks. Professional services for construction, repair and maintenance of children's facilities in Bulgaria and Europe.",
+            description: "Soft Play Solutions - over 6 years of experience creating innovative and safe children's playgrounds, children's zones and trampoline parks. Professional services for construction, repair and maintenance of children's facilities in Bulgaria and Europe.",
             keywords: "children playgrounds, children zones, trampoline parks, soft play, children corners, safe children spaces, playground repair, playground maintenance, Bulgaria"
         },
         services: {
@@ -833,7 +833,7 @@ const seoMeta = {
         },
         gallery: {
             title: "Project Gallery - Soft Play Solutions | Our Completed Projects",
-            description: "Browse our completed projects in over 21 countries worldwide. Modern and functional children's facilities for shopping centers, hotels, schools and public spaces.",
+            description: "Browse our completed projects in over 11 countries worldwide. Modern and functional children's facilities for shopping centers, hotels, schools and public spaces.",
             keywords: "playground projects, playground gallery, completed projects, children zones, trampoline parks, Bulgaria, Europe"
         },
         products: {
@@ -843,7 +843,7 @@ const seoMeta = {
         },
         about: {
             title: "About Us - Soft Play Solutions | Our Story and Values",
-            description: "Over 10 years of experience creating innovative and safe children's spaces. Our values: quality, professionalism, individual approach and care for every child.",
+            description: "Over 6 years of experience creating innovative and safe children's spaces. Our values: quality, professionalism, individual approach and care for every child.",
             keywords: "about us, history, values, experience, playground company, Bulgaria, professionalism"
         },
         tips: {
